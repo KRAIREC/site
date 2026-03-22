@@ -44,13 +44,13 @@ const Header = () => {
         }`}
       >
         <div className="max-w-[1400px] mx-auto flex items-center justify-between px-6 py-4">
-          <a href="#" className="flex items-center gap-3">
+          <a href="#" className="flex items-center gap-4">
             <img 
               src="https://customer-assets.emergentagent.com/job_precision-hire/artifacts/n0pa8pmk_image.png" 
               alt="Knowles Recruitment" 
-              className="h-9 w-9"
+              className="h-16 w-16"
             />
-            <span className="text-lg font-semibold text-gray-900">
+            <span className="text-2xl font-semibold text-gray-900">
               Knowles Recruitment
             </span>
           </a>
