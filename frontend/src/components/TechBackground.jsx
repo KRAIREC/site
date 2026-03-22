@@ -6,6 +6,15 @@ const TechBackground = () => {
       {/* Subtle gradient mesh */}
       <div className="absolute inset-0 bg-gradient-to-br from-gray-50 via-white to-blue-50/30" />
       
+      {/* Subtle grid pattern overlay */}
+      <div className="absolute inset-0" style={{
+        backgroundImage: `
+          linear-gradient(to right, rgba(220, 38, 38, 0.03) 1px, transparent 1px),
+          linear-gradient(to bottom, rgba(220, 38, 38, 0.03) 1px, transparent 1px)
+        `,
+        backgroundSize: '80px 80px'
+      }} />
+      
       {/* Neural network pattern - more visible */}
       <svg className="absolute inset-0 w-full h-full opacity-[0.25]" xmlns="http://www.w3.org/2000/svg">
         <defs>
