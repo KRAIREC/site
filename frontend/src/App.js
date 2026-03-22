@@ -5,6 +5,7 @@ import { Toaster } from "@/components/ui/sonner";
 import TechBackground from "@/components/TechBackground";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
+import TrustBar from "@/components/TrustBar";
 import Positioning from "@/components/Positioning";
 import Specialisms from "@/components/Specialisms";
 import Clients from "@/components/Clients";
@@ -21,6 +22,7 @@ const Home = () => {
       <TechBackground />
       <Header />
       <Hero />
+      <TrustBar />
       <Positioning />
       <Specialisms />
       <Clients />
