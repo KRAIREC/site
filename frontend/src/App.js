@@ -6,12 +6,11 @@ import TechBackground from "@/components/TechBackground";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import TrustBar from "@/components/TrustBar";
+import CoreSpecialisms from "@/components/CoreSpecialisms";
+import WhatWeDo from "@/components/WhatWeDo";
+import ClientsCandidates from "@/components/ClientsCandidates";
 import Positioning from "@/components/Positioning";
-import Specialisms from "@/components/Specialisms";
-import Clients from "@/components/Clients";
-import Candidates from "@/components/Candidates";
 import WhyKnowles from "@/components/WhyKnowles";
-import Process from "@/components/Process";
 import Testimonials from "@/components/Testimonials";
 import FinalCTA from "@/components/FinalCTA";
 import Footer from "@/components/Footer";
@@ -23,12 +22,11 @@ const Home = () => {
       <Header />
       <Hero />
       <TrustBar />
+      <CoreSpecialisms />
+      <WhatWeDo />
+      <ClientsCandidates />
       <Positioning />
-      <Specialisms />
-      <Clients />
-      <Candidates />
       <WhyKnowles />
-      <Process />
       <Testimonials />
       <FinalCTA />
       <Footer />
