@@ -1,46 +1,35 @@
-import React, { useState } from 'react';
-import { Button } from './ui/button';
-import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } from './ui/dialog';
-import ContactForm from './ContactForm';
+import React from 'react';
+import { ArrowRight } from 'lucide-react';
 
 const FinalCTA = () => {
-  const [isContactOpen, setIsContactOpen] = useState(false);
-
   return (
-    <>
-      <section id="contact" className="py-32 px-8 bg-gray-50">
-        <div className="max-w-[900px] mx-auto text-center space-y-8">
-          <h2 className="text-6xl font-bold text-gray-900 leading-tight">
-            Building an AI or<br />engineering team?
-          </h2>
-          
-          <p className="text-2xl text-gray-600 leading-relaxed">
-            If the hire matters, the search approach should too.
-          </p>
+    <section id="contact" className="py-32 px-8 bg-gray-50">
+      <div className="max-w-[900px] mx-auto text-center space-y-8">
+        <h2 className="text-6xl font-bold text-gray-900 leading-tight">
+          Building an AI or<br />engineering team?
+        </h2>
+        
+        <p className="text-2xl text-gray-600 leading-relaxed">
+          If the hire matters, the search approach should too.
+        </p>
 
-          <div className="pt-6">
-            <Button 
-              onClick={() => setIsContactOpen(true)}
-              className="bg-[#DC2626] hover:bg-[#B91C1C] text-white px-12 py-7 text-xl font-semibold rounded-md transition-all duration-200 hover:shadow-xl"
-            >
-              Book a Search Brief
-            </Button>
-          </div>
+        <div className="pt-6 flex flex-col sm:flex-row gap-4 justify-center">
+          <a
+            href="mailto:hiring@knowlesrecruitment.com"
+            className="group inline-flex items-center justify-center gap-2 rounded-full bg-[#DC2626] px-12 py-7 text-xl font-semibold text-white transition-all hover:bg-[#B91C1C]"
+          >
+            Hire Talent
+            <ArrowRight size={20} className="transition-transform group-hover:translate-x-1" />
+          </a>
+          <a
+            href="mailto:cvsubmit@knowlesrecruitment.com"
+            className="inline-flex items-center justify-center gap-2 rounded-full border-2 border-gray-300 px-12 py-7 text-xl font-semibold text-gray-900 transition-colors hover:border-gray-400 hover:bg-white"
+          >
+            Submit Your CV
+          </a>
         </div>
-      </section>
-
-      <Dialog open={isContactOpen} onOpenChange={setIsContactOpen}>
-        <DialogContent className="sm:max-w-[600px]">
-          <DialogHeader>
-            <DialogTitle className="text-2xl font-bold text-gray-900">Book a Search Brief</DialogTitle>
-            <DialogDescription className="text-gray-600">
-              Let's discuss your hiring requirements in detail. We'll respond within 24 hours.
-            </DialogDescription>
-          </DialogHeader>
-          <ContactForm formType="final-cta" onSuccess={() => setIsContactOpen(false)} />
-        </DialogContent>
-      </Dialog>
-    </>
+      </div>
+    </section>
   );
 };
 

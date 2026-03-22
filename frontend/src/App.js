@@ -14,6 +14,7 @@ import WhyKnowles from "@/components/WhyKnowles";
 import Testimonials from "@/components/Testimonials";
 import FinalCTA from "@/components/FinalCTA";
 import Footer from "@/components/Footer";
+import FeaturedOpportunities from "@/pages/FeaturedOpportunities";
 
 const Home = () => {
   return (
@@ -40,6 +41,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/opportunities" element={<FeaturedOpportunities />} />
         </Routes>
       </BrowserRouter>
       <Toaster />
