@@ -1,9 +1,14 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Search, Clock, Award } from 'lucide-react';
+import { Target, Search, Clock, Award } from 'lucide-react';
 
 const WhatWeDo = () => {
   const services = [
+    {
+      icon: Target,
+      title: 'Retained Search',
+      description: 'Partnering closely with clients on critical hires, delivering a dedicated, high-touch search process focused on quality and precision.'
+    },
     {
       icon: Search,
       title: 'Permanent Search',
@@ -12,7 +17,7 @@ const WhatWeDo = () => {
     {
       icon: Clock,
       title: 'Contract & Interim',
-      description: 'Providing flexible roles and access to specialist AI and technology talent.'
+      description: 'Providing flexible access to specialist AI and engineering talent.'
     },
     {
       icon: Award,
@@ -23,7 +28,7 @@ const WhatWeDo = () => {
 
   return (
     <section className="py-20 px-6 bg-white">
-      <div className="max-w-[1100px] mx-auto">
+      <div className="max-w-[1200px] mx-auto">
         <motion.div
           className="text-right mb-12"
           initial={{ opacity: 0, y: 20 }}
@@ -32,11 +37,11 @@ const WhatWeDo = () => {
           transition={{ duration: 0.5 }}
         >
           <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gray-500">
-            Our Approach
+            How We Work
           </p>
         </motion.div>
 
-        <div className="grid gap-12 md:grid-cols-3">
+        <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-4">
           {services.map((service, index) => {
             const Icon = service.icon;
             return (

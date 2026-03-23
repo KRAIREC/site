@@ -28,6 +28,10 @@ const ClientsCandidates = () => {
             <ul className="space-y-4 mb-10">
               <li className="flex items-start gap-3">
                 <div className="w-1.5 h-1.5 rounded-full bg-[#DC2626] mt-2 flex-shrink-0" />
+                <span className="text-gray-200">Retained and contingent hiring solutions</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <div className="w-1.5 h-1.5 rounded-full bg-[#DC2626] mt-2 flex-shrink-0" />
                 <span className="text-gray-200">Targeted talent search</span>
               </li>
               <li className="flex items-start gap-3">
