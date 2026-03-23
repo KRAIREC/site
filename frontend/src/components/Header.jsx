@@ -75,12 +75,12 @@ const Header = () => {
             </button>
           ))}
           
-          <button
-            onClick={() => scrollToSection('contact')}
+          <a
+            href="mailto:team@knowlesrecruitment.com?subject=Hiring%20Enquiry%20-%20Knowles%20Recruitment&body=Hi%2C%0A%0AI%E2%80%99m%20looking%20to%20hire%20and%20would%20like%20to%20discuss%20how%20Knowles%20Recruitment%20can%20support.%0A%0ACompany%3A%0A%0ARole(s)%20we%20are%20hiring%20for%3A%0A%0ALocation%3A%0A%0AAdditional%20information%3A%0A%0AThanks%2C"
             className="rounded-lg bg-[#DC2626] px-7 py-3 text-[15px] font-semibold text-white transition-all duration-200 hover:bg-[#B91C1C] hover:shadow-lg hover:-translate-y-0.5"
           >
             Contact
-          </button>
+          </a>
         </div>
 
         <button
@@ -110,15 +110,13 @@ const Header = () => {
                   {link.label}
                 </button>
               ))}
-              <button
-                onClick={() => {
-                  scrollToSection('contact');
-                  setMobileOpen(false);
-                }}
+              <a
+                href="mailto:team@knowlesrecruitment.com?subject=Hiring%20Enquiry%20-%20Knowles%20Recruitment&body=Hi%2C%0A%0AI%E2%80%99m%20looking%20to%20hire%20and%20would%20like%20to%20discuss%20how%20Knowles%20Recruitment%20can%20support.%0A%0ACompany%3A%0A%0ARole(s)%20we%20are%20hiring%20for%3A%0A%0ALocation%3A%0A%0AAdditional%20information%3A%0A%0AThanks%2C"
+                onClick={() => setMobileOpen(false)}
                 className="mt-4 rounded-lg bg-[#DC2626] px-7 py-4 text-[15px] font-semibold text-white text-center"
               >
                 Contact
-              </button>
+              </a>
             </div>
           </motion.div>
         )}
