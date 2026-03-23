@@ -17,70 +17,80 @@ const FeaturedOpportunities = () => {
       location: 'London',
       salary: 'Up to £400,000 + equity',
       type: 'Permanent',
-      description: 'Senior leadership role driving AI strategy and engineering capability.'
+      description: 'Senior leadership role driving AI strategy and engineering capability.',
+      mailtoLink: 'mailto:cvsubmit@knowlesrecruitment.com?subject=Application%20-%20Partner%2C%20AI%20%26%20Engineering&body=Hi%2C%0A%0AI%E2%80%99m%20interested%20in%20the%20Partner%2C%20AI%20%26%20Engineering%20role%20and%20would%20like%20to%20apply.%0A%0APlease%20find%20my%20CV%20attached.%0A%0AThanks%2C'
     },
     {
       title: 'AI Strategy & Adoption Lead',
       location: 'London (Hybrid)',
       salary: '£110,000 – £150,000 + bonus',
       type: 'Permanent',
-      description: 'Strategic role focused on embedding AI across business functions.'
+      description: 'Strategic role focused on embedding AI across business functions.',
+      mailtoLink: 'mailto:cvsubmit@knowlesrecruitment.com?subject=Application%20-%20AI%20Strategy%20%26%20Adoption%20Lead&body=Hi%2C%0A%0AI%E2%80%99m%20interested%20in%20the%20AI%20Strategy%20%26%20Adoption%20Lead%20role%20and%20would%20like%20to%20apply.%0A%0APlease%20find%20my%20CV%20attached.%0A%0AThanks%2C'
     },
     {
       title: 'Head of AI / Machine Learning',
       location: 'London',
       salary: '£130,000 – £180,000 + equity',
       type: 'Permanent',
-      description: 'Lead AI roadmap and build a high-performing machine learning function.'
+      description: 'Lead AI roadmap and build a high-performing machine learning function.',
+      mailtoLink: 'mailto:cvsubmit@knowlesrecruitment.com?subject=Application%20-%20Head%20of%20AI%20%2F%20Machine%20Learning&body=Hi%2C%0A%0AI%E2%80%99m%20interested%20in%20the%20Head%20of%20AI%20%2F%20Machine%20Learning%20role%20and%20would%20like%20to%20apply.%0A%0APlease%20find%20my%20CV%20attached.%0A%0AThanks%2C'
     },
     {
       title: 'AI Product Engineer',
       location: 'London',
       salary: '£85,000 – £115,000',
       type: 'Permanent',
-      description: 'Build AI-powered product features across engineering and ML systems.'
+      description: 'Build AI-powered product features across engineering and ML systems.',
+      mailtoLink: 'mailto:cvsubmit@knowlesrecruitment.com?subject=Application%20-%20AI%20Product%20Engineer&body=Hi%2C%0A%0AI%E2%80%99m%20interested%20in%20the%20AI%20Product%20Engineer%20role%20and%20would%20like%20to%20apply.%0A%0APlease%20find%20my%20CV%20attached.%0A%0AThanks%2C'
     },
     {
       title: 'Senior Machine Learning Engineer',
       location: 'London (Hybrid)',
       salary: '£90,000 – £120,000 + bonus',
       type: 'Permanent',
-      description: 'Design and deploy production-grade machine learning models.'
+      description: 'Design and deploy production-grade machine learning models.',
+      mailtoLink: 'mailto:cvsubmit@knowlesrecruitment.com?subject=Application%20-%20Senior%20Machine%20Learning%20Engineer&body=Hi%2C%0A%0AI%E2%80%99m%20interested%20in%20the%20Senior%20Machine%20Learning%20Engineer%20role%20and%20would%20like%20to%20apply.%0A%0APlease%20find%20my%20CV%20attached.%0A%0AThanks%2C'
     },
     {
       title: 'AI Engineer (LLMs & Generative AI)',
       location: 'London / Remote',
       salary: '£80,000 – £110,000',
       type: 'Permanent',
-      description: 'Develop applications powered by large language models and generative AI.'
+      description: 'Develop applications powered by large language models and generative AI.',
+      mailtoLink: 'mailto:cvsubmit@knowlesrecruitment.com?subject=Application%20-%20AI%20Engineer%20%28LLMs%20%26%20Generative%20AI%29&body=Hi%2C%0A%0AI%E2%80%99m%20interested%20in%20the%20AI%20Engineer%20%28LLMs%20%26%20Generative%20AI%29%20role%20and%20would%20like%20to%20apply.%0A%0APlease%20find%20my%20CV%20attached.%0A%0AThanks%2C'
     },
     {
       title: 'MLOps Engineer',
       location: 'London (Hybrid)',
       salary: '£75,000 – £100,000',
       type: 'Permanent',
-      description: 'Build and scale ML infrastructure, pipelines and deployment systems.'
+      description: 'Build and scale ML infrastructure, pipelines and deployment systems.',
+      mailtoLink: 'mailto:cvsubmit@knowlesrecruitment.com?subject=Application%20-%20MLOps%20Engineer&body=Hi%2C%0A%0AI%E2%80%99m%20interested%20in%20the%20MLOps%20Engineer%20role%20and%20would%20like%20to%20apply.%0A%0APlease%20find%20my%20CV%20attached.%0A%0AThanks%2C'
     },
     {
       title: 'NLP Engineer',
       location: 'London / Hybrid',
       salary: '£75,000 – £105,000',
       type: 'Permanent',
-      description: 'Develop NLP models and language-based AI systems.'
+      description: 'Develop NLP models and language-based AI systems.',
+      mailtoLink: 'mailto:cvsubmit@knowlesrecruitment.com?subject=Application%20-%20NLP%20Engineer&body=Hi%2C%0A%0AI%E2%80%99m%20interested%20in%20the%20NLP%20Engineer%20role%20and%20would%20like%20to%20apply.%0A%0APlease%20find%20my%20CV%20attached.%0A%0AThanks%2C'
     },
     {
       title: 'Computer Vision Engineer',
       location: 'London',
       salary: '£80,000 – £110,000',
       type: 'Permanent',
-      description: 'Work on advanced computer vision solutions across image and video systems.'
+      description: 'Work on advanced computer vision solutions across image and video systems.',
+      mailtoLink: 'mailto:cvsubmit@knowlesrecruitment.com?subject=Application%20-%20Computer%20Vision%20Engineer&body=Hi%2C%0A%0AI%E2%80%99m%20interested%20in%20the%20Computer%20Vision%20Engineer%20role%20and%20would%20like%20to%20apply.%0A%0APlease%20find%20my%20CV%20attached.%0A%0AThanks%2C'
     },
     {
       title: 'Data Engineer (AI Platforms)',
       location: 'Remote (UK-based)',
       salary: '£65,000 – £90,000',
       type: 'Permanent',
-      description: 'Build scalable data infrastructure to support AI and ML systems.'
+      description: 'Build scalable data infrastructure to support AI and ML systems.',
+      mailtoLink: 'mailto:cvsubmit@knowlesrecruitment.com?subject=Application%20-%20Data%20Engineer%20%28AI%20Platforms%29&body=Hi%2C%0A%0AI%E2%80%99m%20interested%20in%20the%20Data%20Engineer%20%28AI%20Platforms%29%20role%20and%20would%20like%20to%20apply.%0A%0APlease%20find%20my%20CV%20attached.%0A%0AThanks%2C'
     }
   ];
 
@@ -192,13 +202,17 @@ const FeaturedOpportunities = () => {
                   {role.description}
                 </p>
                 
-                <a
-                  href="mailto:hiring@knowlesrecruitment.com"
-                  className="inline-flex items-center gap-2 text-[#DC2626] font-semibold hover:gap-3 transition-all"
-                >
-                  Apply Now
-                  <ArrowRight className="h-4 w-4" />
-                </a>
+                <div>
+                  <a
+                    href={role.mailtoLink}
+                    className="inline-flex items-center justify-center gap-2 rounded-lg bg-[#DC2626] px-6 py-3 text-sm font-semibold text-white transition-all hover:bg-[#B91C1C] hover:shadow-md"
+                  >
+                    Apply Now
+                  </a>
+                  <p className="mt-3 text-xs text-gray-500 italic">
+                    Apply by sending your CV directly to our team.
+                  </p>
+                </div>
               </motion.div>
             ))}
           </div>
