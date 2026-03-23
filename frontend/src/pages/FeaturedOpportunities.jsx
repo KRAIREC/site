@@ -256,12 +256,16 @@ const FeaturedOpportunities = () => {
               <ArrowRight size={18} />
             </a>
             <a
-              href="mailto:hiring@knowlesrecruitment.com"
+              href="mailto:team@knowlesrecruitment.com?subject=Client%20Enquiry%20-%20Knowles%20Recruitment&body=Hi%2C%0A%0AI%E2%80%99d%20like%20to%20speak%20with%20you%20regarding%20a%20potential%20hire.%0A%0APlease%20let%20me%20know%20a%20convenient%20time%20to%20connect.%0A%0AThanks%2C"
               className="inline-flex items-center justify-center gap-2 rounded-full border-2 border-gray-300 px-8 py-4 text-base font-semibold text-gray-900 transition-colors hover:border-gray-400 hover:bg-gray-50"
             >
               Speak With Us
             </a>
           </div>
+          
+          <p className="text-sm text-gray-500">
+            Prefer to email us directly? Get in touch and we'll respond promptly.
+          </p>
         </div>
       </section>
 

@@ -44,13 +44,18 @@ const ClientsCandidates = () => {
               </li>
             </ul>
             
-            <a
-              href="mailto:hiring@knowlesrecruitment.com"
-              className="group inline-flex items-center gap-2 rounded-full bg-[#DC2626] px-7 py-4 text-base font-semibold text-white transition-all hover:bg-[#B91C1C]"
-            >
-              Hire Talent
-              <ArrowRight size={18} className="transition-transform group-hover:translate-x-1" />
-            </a>
+            <div>
+              <a
+                href="mailto:team@knowlesrecruitment.com?subject=AI%20Hiring%20Support%20Enquiry&body=Hi%2C%0A%0AI%E2%80%99m%20interested%20in%20support%20with%20hiring%20AI%20and%20engineering%20talent.%0A%0ACompany%3A%0A%0AHiring%20needs%3A%0A%0ATimeline%3A%0A%0AThanks%2C"
+                className="group inline-flex items-center gap-2 rounded-full bg-[#DC2626] px-7 py-4 text-base font-semibold text-white transition-all hover:bg-[#B91C1C]"
+              >
+                Hire Talent
+                <ArrowRight size={18} className="transition-transform group-hover:translate-x-1" />
+              </a>
+              <p className="mt-4 text-sm text-gray-400">
+                Prefer to email us directly? Get in touch and we'll respond promptly.
+              </p>
+            </div>
           </motion.div>
 
           {/* For Candidates - Light */}
@@ -86,13 +91,18 @@ const ClientsCandidates = () => {
               </li>
             </ul>
             
-            <a
-              href="mailto:cvsubmit@knowlesrecruitment.com"
-              className="group inline-flex items-center gap-2 rounded-full bg-[#DC2626] px-7 py-4 text-base font-semibold text-white transition-all hover:bg-[#B91C1C]"
-            >
-              Submit Your CV
-              <ArrowRight size={18} className="transition-transform group-hover:translate-x-1" />
-            </a>
+            <div>
+              <a
+                href="mailto:cvsubmit@knowlesrecruitment.com"
+                className="group inline-flex items-center gap-2 rounded-full bg-[#DC2626] px-7 py-4 text-base font-semibold text-white transition-all hover:bg-[#B91C1C]"
+              >
+                Submit Your CV
+                <ArrowRight size={18} className="transition-transform group-hover:translate-x-1" />
+              </a>
+              <p className="mt-4 text-sm text-gray-500">
+                Prefer to email us directly? Get in touch and we'll respond promptly.
+              </p>
+            </div>
           </motion.div>
         </div>
       </div>

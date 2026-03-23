@@ -37,7 +37,7 @@ const Hero = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
           >
             <a
-              href="mailto:hiring@knowlesrecruitment.com"
+              href="mailto:team@knowlesrecruitment.com?subject=Hiring%20Enquiry%20-%20Knowles%20Recruitment&body=Hi%2C%0A%0AI%E2%80%99m%20looking%20to%20hire%20and%20would%20like%20to%20discuss%20how%20Knowles%20Recruitment%20can%20support.%0A%0ACompany%3A%0A%0ARole(s)%20we%20are%20hiring%20for%3A%0A%0ALocation%3A%0A%0AAdditional%20information%3A%0A%0AThanks%2C"
               className="group inline-flex items-center justify-center gap-2 rounded-full bg-[#DC2626] px-8 py-4 text-base font-semibold text-white transition-all hover:bg-[#B91C1C]"
             >
               Hire AI Talent
@@ -50,6 +50,15 @@ const Hero = () => {
               Explore Opportunities
             </button>
           </motion.div>
+          
+          <motion.p
+            className="mt-6 text-sm text-gray-500"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.6, delay: 0.3 }}
+          >
+            Prefer to email us directly? Get in touch and we'll respond promptly.
+          </motion.p>
         </div>
       </div>
     </section>
