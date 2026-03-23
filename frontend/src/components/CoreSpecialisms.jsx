@@ -5,28 +5,25 @@ import { Brain, Code, Database, Users } from 'lucide-react';
 const CoreSpecialisms = () => {
   const specialisms = [
     {
-      number: '01',
       icon: Brain,
       title: 'AI & Machine Learning',
-      roles: ['Machine Learning Engineers', 'Applied AI Scientists', 'NLP Engineers', 'Computer Vision Specialists']
+      roles: ['Machine Learning Engineers', 'Applied AI Scientists', 'Natural Language Processing (NLP) Engineers', 'Computer Vision Engineers']
     },
     {
-      number: '02',
       icon: Code,
       title: 'Software Engineering',
-      roles: ['Backend Engineers', 'Full Stack Developers', 'Platform Engineers']
+      description: 'Supporting engineering teams building scalable, AI-enabled products and platforms.',
+      roles: ['Backend Engineers', 'Full Stack Engineers', 'Platform Engineers', 'Distributed Systems Engineers']
     },
     {
-      number: '03',
       icon: Database,
       title: 'Data & Platform',
       roles: ['Data Engineers', 'MLOps Engineers', 'Analytics Engineers']
     },
     {
-      number: '04',
       icon: Users,
-      title: 'Leadership & Management',
-      roles: ['CTO', 'Head of AI', 'Engineering Directors']
+      title: 'AI and Engineering Leadership',
+      roles: ['Chief Technology Officer (CTO)', 'Head of AI / Machine Learning', 'Director of Engineering', 'Head of Data & AI']
     }
   ];
 
@@ -58,16 +55,19 @@ const CoreSpecialisms = () => {
                 transition={{ duration: 0.4, delay: index * 0.1 }}
               >
                 <div className="flex items-start justify-between mb-4">
-                  <div>
-                    <p className="text-xs text-gray-400 mb-1">{spec.number}</p>
-                    <Icon className="h-8 w-8 text-[#DC2626]" />
-                  </div>
+                  <Icon className="h-8 w-8 text-[#DC2626]" />
                   <div className="h-2 w-2 rounded-full bg-[#DC2626]" />
                 </div>
                 
                 <h3 className="text-base font-bold text-gray-900 mb-4">
                   {spec.title}
                 </h3>
+                
+                {spec.description && (
+                  <p className="text-sm text-gray-600 mb-4 leading-relaxed">
+                    {spec.description}
+                  </p>
+                )}
                 
                 <ul className="space-y-2">
                   {spec.roles.map((role, i) => (
