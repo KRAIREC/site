@@ -30,7 +30,7 @@ const WhatWeDo = () => {
     <section className="py-20 px-6 bg-white">
       <div className="max-w-[1200px] mx-auto">
         <motion.div
-          className="text-right mb-12"
+          className="text-center mb-12"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}

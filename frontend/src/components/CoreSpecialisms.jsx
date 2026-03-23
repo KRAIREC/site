@@ -31,7 +31,7 @@ const CoreSpecialisms = () => {
     <section className="py-20 px-6 bg-gray-50">
       <div className="max-w-[1100px] mx-auto">
         <motion.div
-          className="text-right mb-12"
+          className="text-center mb-12"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
